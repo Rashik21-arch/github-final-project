@@ -1,11 +1,11 @@
 $ git --no-pager branch -avv
   bug-fix-revert                e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
   bug-fix-typo                  54867aa [origin/bug-fix-typo] Fix documentation typo
-* main                          820e83a [origin/main] Update merge branch evidence
+* main                          22969ce [origin/main] Clean branch status evidence
   remotes/origin/HEAD           -> origin/main
   remotes/origin/bug-fix-revert e06c1b0 Update first merge terminal output
   remotes/origin/bug-fix-typo   54867aa Fix documentation typo
-  remotes/origin/main           820e83a Update merge branch evidence
+  remotes/origin/main           22969ce Clean branch status evidence
 
 $ git status
 On branch main
