@@ -1,5 +1,5 @@
-]633;E;echo 'Command:';40b5fcc8-f727-4601-9f55-afec9dbd62c4]633;CCommand:
-curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13161 | python3 -c ...
+Command:
+curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13161" | python3 -c 'import json,sys; p=json.load(sys.stdin); print(json.dumps({"number":p["number"],"title":p["title"],"state":p["state"],"html_url":p["html_url"],"merged":p["merged"],"head_repository":p["head"]["repo"]["full_name"],"base_repository":p["base"]["repo"]["full_name"]},indent=2))'
 
 Output:
 {
