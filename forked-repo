@@ -1,5 +1,5 @@
 Command:
-curl -s https://api.github.com/repos/Rashik21-arch/github-final-project | python3 -c 'import json,sys; d=json.load(sys.stdin); print(json.dumps({"full_name":d["full_name"],"fork":d["fork"],"parent":d.get("parent",{}).get("full_name"),"source":d.get("source",{}).get("full_name")},indent=2))'
+curl -s https://api.github.com/repos/Rashik21-arch/github-final-project | python3 -c 'import json,sys; d=json.load(sys.stdin); print(json.dumps({"full_name":d.get("full_name"),"fork":d.get("fork"),"parent":d.get("parent",{}).get("full_name"),"source":d.get("source",{}).get("full_name")},indent=2))'
 
 Output:
 {
