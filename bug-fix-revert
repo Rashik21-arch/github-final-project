@@ -1,5 +1,13 @@
-Command:
-[Paste the curl command here]
+]633;E;echo 'Command:';40b5fcc8-f727-4601-9f55-afec9dbd62c4]633;CCommand:
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13161 | python3 -c ...
 
 Output:
-[Paste the actual terminal output here]
+{
+  "number": 13161,
+  "title": "Fix documentation and update repository",
+  "state": "closed",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/13161",
+  "merged": false,
+  "head_repository": "Rashik21-arch/mcino-Introduction-to-Git-and-GitHub",
+  "base_repository": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
