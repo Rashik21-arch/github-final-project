@@ -2,10 +2,7 @@ $ git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 
-$ git merge bug-fix-typo
-Merge completed. Commit: fde3701
-
-$ git --no-pager show --stat --oneline HEAD
-fde3701 Merge branch 'bug-fix-typo'
+$ git merge --no-edit bug-fix-typo
+Merge made by the 'ort' strategy.
 README.md | 2 +-
 1 file changed, 1 insertion(+), 1 deletion(-)
