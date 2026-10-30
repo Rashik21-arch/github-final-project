@@ -40,6 +40,6 @@ Output = 1000
 
 ---
 
-This project is created as part of the Introduction to Git and GitHub course.
+This project was created as part of the Introduction to Git and GitHub course.
 
 Bug fix: Updated the project documentation.
