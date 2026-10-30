@@ -1,117 +1,12 @@
+ bug-fix-revert                e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
+  bug-fix-typo                  9875c0b [origin/bug-fix-typo] Fix documentation typo
+* main                          36273ca [origin/main] Add detailed branch status
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert e06c1b0 Update first merge terminal output
+  remotes/origin/bug-fix-typo   9875c0b Fix documentation typo
+  remotes/origin/main           36273ca Add detailed branch status
 
-$ git branch -a
-  bug-fix-revert
-  bug-fix-typo
-* main
-  remotes/origin/HEAD -> origin/main
-  remotes/origin/bug-fix-revert
-  remotes/origin/bug-fix-typo
-  remotes/origin/main
-
-$ git status
-On branch main
+  On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
-
-
- bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-:...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-~
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-~
-~
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-(END)...skipping...
-  bug-fix-revert e06c1b0 [origin/bug-fix-revert] Update first merge terminal output
-  bug-fix-typo   9875c0b [origin/bug-fix-typo] Fix documentation typo
-* main           80ab57d [origin/main] Update GitHub branches status
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-(END)
